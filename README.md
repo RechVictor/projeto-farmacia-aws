@@ -5,7 +5,7 @@ Data: [28 de agosto de 2025]
 
 Empresa: Abstergo Industries
 
-ResponsÃ¡vel: [Victor Augusto Rech]
+Responsavel: [Victor Augusto Rech]
 
 
 ## INTRODUÇÃO
@@ -25,7 +25,7 @@ Etapa 1:Implementação do Amazon S3
 - [A Abstergo Industries possui uma grande quantidade de dados de pesquisa e desenvolvimento, relatórios de testes clínicos e documentos de regulamentação armazenados em servidores físicos. A manutenção desses servidores é cara e a capacidade de armazenamento é limitada. Com o S3, migramos esses dados para a nuvem, eliminando a necessidade de comprar e manter hardware de armazenamento. A empresa agora paga apenas pelo espaço de armazenamento que realmente usa e se beneficia de custos mais baixos por gigabyte, alta durabilidade e backups automáticos]
 
 
-Etapa 2:
+Etapa 2:Implementação do Amazon EC2
 
 - [Implementação do Amazon EC2 Spot Instances]
 
@@ -34,7 +34,7 @@ Etapa 2:
 - [O setor de P&D da Abstergo utiliza servidores para simulações e análise de dados que não precisam ser executadas 24/7 e podem tolerar interrupções. Em vez de usar instâncias EC2 sob demanda, que são mais caras, implementamos o uso de Spot Instances. Essas instâncias aproveitam a capacidade não utilizada da AWS e oferecem descontos de até 90%. Isso permite que a equipe de pesquisa execute tarefas intensivas em computação por uma fração do custo, acelerando o ciclo de inovação sem estourar o orçamento]
 
 
-Etapa 3:
+Etapa 3:Implementação do Amazon RDS
 
 - [Implementação do Amazon RDS]
 
